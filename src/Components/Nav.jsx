@@ -35,7 +35,7 @@ const Nav = () => {
      <img   src="logo.png" alt=""></img>
      <div className=' flex  items-center justify-center gap-6'>
        {navitem.map((val,index)=>(
-    <a href={val.path} key={index} className='ml-6 text-white hover:text-[#fc6060] text-lg font-medium ease-in duration-300'>{val.title}</a>))}
+    <a href={val.path} key={index} className='ml-6 text-white hover:text-[#fc6060] hover:underline hover:underline-offset-4 text-lg font-medium ease-in duration-300'>{val.title}</a>))}
        <  IoSearchSharp className='text-white font-medium text-3xl ml-36   ' />
      </div>
     </div>
